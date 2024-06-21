@@ -1,0 +1,39 @@
+       $matrix - jak vypada ( dvojdimensionalni pole )
+
+       [0,0]="" az [0,9]="" [0,10]="random znak" az [0,71]="random znak" - napr. "A"
+       [1,0]="" az [1,9]="" [1,10]="random znak" az [1,71]="random znak" - radek napr. vubec neobsahuje znak "Z" apod.
+       [2,0] ...            [2,10]="random znak" az [1,71]="random znak"
+       [3,0] ...            [3,10]="random znak" az [1,71]="random znak"
+       .                     .                       .
+       .                     .                       .
+       .                     .                       .
+       .                     .                       .
+       .                     .                       .
+       .                     .                       .              
+       atd .                 .                       .
+       .                     .                       .
+       .                     .                       .
+       .                     .                       .
+       .                     .                       .
+       .                     .                       .
+       .                     .                       .   
+       [122,0] ...          [122,10]="random znak" az [122,71]="random znak"
+       [123,0] ...          [123,10]="random znak" az [1231,71]="random znak"
+       [124,0]="" az [124,9]="" [124,10]="random znak" az [124,71]="random znak"
+       [125,0]="" az [125,9]="" [125,10]="random znak" az [125,71]="random znak"
+       
+       --------------------------------------------------------------------------------------------
+       tady se uz nemicha jako ve verzi linux6.2 ale vybira se z abecedy nahodny znak
+       takze napr. prvni radek matice tzn. bunky [0,10] az [0,71] muze obsahovat treba 2x znak "A"
+       takze bude dvojnasobna pravdepodobnost ze privna znak hesla bude "A" ale naopak treba
+       vubec nemusi obsahovat napr. znak "Z" takze veskeri pokusy o zadani hesla z "Z" na 
+       zacatku jsou zbytecny a kazdej radek to ma jinak a kazdej klic to ma jinak
+       a nebo nemusi myslim ze tim vznika jeste vetsi nahodnost obsahu klice... potazmo pak hesla
+       9 klicu na zacatku je vzdy prazdnych ( je potreba zacinat prvnim dvojcifernym cislem tzn. 10 
+       takze je 126 dvojic a stoho se potom slozi 126 znaku dlouhe heslo
+       126 znaku je pevna delka kazdeho hesla a kazdy archiv ma unikatni heslo 126 znaku dlouhe
+       kazda matice obsahuje celkem 9072 poli stoho 7812 je zaplnenich 
+       
+       
+       
+       

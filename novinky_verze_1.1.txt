@@ -1,0 +1,48 @@
+   soupiska novinek verze 1.1 co pribylo
+
+1) konecne se obevila funkce pro kontrolu kontrolniho souctu klice, takze pridano afunguje stejne jako 
+   ve verzi 6.2 pro linux ( nekolik obrazku v aresari "jpg" )
+
+2) dale byla upravena maximalni delka nazvu adresare na 69 znaku misto puvodnich 73
+   toto bylo takove opomenuti z predchozi verze, jd o to ze puvodne byla delka vseho tzn. adresaru,
+   klicu i souboru zip nastavena na max. 73 znaku delku ALE paklize by mel adresar delku prave 73 znaku
+   a prida se knemu navic po zazipovani jeste pripona (a rozdelobvac tzn znak ".") byla by jiz delka
+   nazvu archivu 73+4 znaky a program zasifruj.exe by ji uz prestal vydet, cili zkraceno o 4 znaky
+   neco malo screenshotu v adresari jpg
+
+3) "zretezeni" nekterej prikazu pro pakovani a rozpakovavani, pridanim nekolika podminek.
+    napr. paklize se pri testu archivu ukaze chyba archivu a ten je necitelny je uz zbytecne
+    provadet dalsi prikaz pro rozpakovani poskozeneho zip archivu, program vypise hlaseni a 
+    predcasne se ukonci, znovu odkazuji na adresar "jpg"
+
+4)  mohla zvniknou situace kdy napr. bude archiv nazvu "adresar" ten se zapakuje, vznikne soubor
+   "adresar.zip" pri dalsim spusteni programu, program uvidi tyto dve polozky a vynecha je z nabydky
+    "rekne" si netreba uz nabyzet, protoze tato prace jiz byla udelana, ALE uzivatel prejmenuje
+    "adresar.zip" na "neco.zip" program ted uz ale neuvidi stejne nazvy a nabydne "neco.zip" 
+    k rozpakovani v archivu "neco.zip" je ale prave uvnitr ten samy adresar z nazvem "adresar" 
+    ( to zustalo stejne ) a program se bude snazit prepisovat jiz existuji soubory a tady
+    by mohl nastat ( a uz take nastal ) problem ze by se ptal "prepsat puvodny soubory Y=yes N=no"
+    nebo tak neco a jelikoz vsechno bezi tak trochu na pozadi tak by se v tomto miste mohl program kousnout
+    ( a taky uz se kousnul ) abychj to zkratil, pridan parametr vice popsano v desifruj.ps1 ( od radku 512)
+    tohle byla docela kriticka chyba (stejne tak jako zkraceni delky z 73 na 69)
+    pozn. nyni prepise naprosto cokliv, jestlize budou vsechny adresare a soubory nastaveny na Read-Only
+    tak je na tvrdo vsechny prepise, kdyz jim nekdo prida treba attribut Hiden-files tak je prepise
+    a tim ze zviditelny, proste naprosto brutalne (a rekurzivne) prepise vsechno co najde
+
+5) predchozi verze pouzivala docasne pomocne soubory zip.bat a unzip.bat, ktere se po ukonceni programu samy
+   zase odstrani, mohlo by se ale stat ze po nejake chybe programu programu ze by tyto soubory v adresari zustlali
+   a mohli by pri dalsim zpusteni pusobit zmatek, cili byla pridana funkce kdy program vygeneruje
+   nahodni ( neopakovatelny ) techto souboru aby nemohlo dojit k nejake kolizi, potom po sobe zase uklidi
+   pkalize by v adresari z programem zustal nejaky soubor z podivuhodnym nazvem napr. ftyuscbnmkl.bat
+   TAK HO VYZMAZTE
+   funkce byla skousena samostatne a pak pridana do hlavniho programu zasifruj.exe a desifruj.exe
+   v adresari "neco_na_vic\stamp_file_name" jsou k nalezeni sobory source
+
+6) opraveno 99_klicu.* ktere delalo 100 klicu, tak ted jiz spravne, 100_klicu.* dela opravdu 100 klicu
+   
+7) jeste k doplnkum, uz byly uvedeny v predchozi verzi 1.0 ale dosud nebyli popsany, utilitka preved_klic.com
+   prevadi soubor klice do formatu pouzitelneho zde tzn. zachova stejnej obsah klice ale jsou tam ti informace
+   trochu jinak ulozeny aby je dokazal nacist program verze 1.0 a verze 1.1 pro Windows
+8) pridano par tipu, celkovy pocet tipu je nyni 30
+
+

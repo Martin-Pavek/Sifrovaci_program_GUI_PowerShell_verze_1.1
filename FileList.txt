@@ -1,0 +1,132 @@
+
+                                   soupiska vsech souboru a co ktery dela
+
+fileList.txt ...................... tento soubor
+
+10_klicu.bat ...................... vygeneruje ve slozce "keys" 10 novych souboru klice
+                                    ten si pak prejmenujte dle sebe, nepouzivejte diakritiku
+                                    a mezery v nazvu klice, paklize bud delka nazvu klice
+                                    delsi nezli 73 znaku program sni nebude pracovat
+                                    ( plati take pro nazvy vsech vytvorenych slozek a
+                                    pro nazvy archivu "zip")
+                                    zacnete tim ze pustite soubor 10_klicu.bat
+                                    a potom si soubory prejmenute podle sveho uvazeni
+                                    vice jiz popisovano ve verzi 6.2 pro linux, ktera
+                                    je zde take prilozena
+                                                         
+10_klicu.com ...................... teto soubor vygeneroval davkovy soubor 10_klicu_bat
+
+10_klicu.ps1 ...................... zdrojovi kod k souboru 10_klicu.com
+                                    vygeneruje 10 klicu (klic-01 az klic-10 )
+
+100_klicu.bat ..................... dela totez jako jiz vise popisovany "10_klicu.bat"
+                                    ale vygeneruje 100 klicu ( cislovani 001 az 100 )
+                                    
+100_klicu.com ..................... teto soubor vygeneroval davkovy soubor 100_klicu_bat
+
+100_klicu.ps1 ..................... zdrojovi kod k souboru 100_klicu.com
+
+desifruj.exe ...................... program pro desifrovani archivu "zip", bude zahrnovat
+                                    do nabidky vsechny archivy "zip" ktere se nachazeji v
+                                    umisteni ze ktereho byl spusten desifruje.exe
+                                    a jejichz delka nazvu neni delsi nezli 73 znaku a to 
+                                    vcetne pripony v pripade souboru, dale plati to co jiz
+                                    bylo napsano vyse nepouzivejte ceske znaky a mezery v nazvech
+                                    
+desifruj.ps1 ...................... zdrojovi kod k souboru desifruj.exe
+
+generuj_klic.bat .................. vygeneruje jeden klic ve slozce "keys" uzivatel je zde 
+                                    vyzvan k zadani jeho nazvu, zobrazi se proto list vsech
+                                    souboru ktere jiz ve slozce "key" jsou pro zjednoduseni
+                                    volby nazvu, paklize by soubor stejneho nazvu jiz existoval
+                                    program vypise toto hlaseni a predcasne se ukonci
+                                    totez plati i pro soubory 10_klicu.bat a 99_klicu.bat
+                                    
+generuj_klic.com .................. generator klicu samotny, vse drive popisovane jsou pouze
+                                    dalsi obsluzne soubory pro tento hlavny generator klicu
+                                    UPOZORNENI: u souboru z priponou "com" se mi nepodarilo
+                                    ve Windows vytvorit tzv. zastupce u souboru "com"
+                                    prejmenovanich na priponu "exe" zastupce jiz vytvorit jde :)
+                                    vytvareni zastupcu ale v tomto pripad nelze doporucit
+                                    spise by to asi praci stizilo nezli zjednodusilo
+                                    
+generuj_klic.ps1 .................. zdrojovi kod k souboru generuj_klic.com
+                                    
+jpg ............................... slozka "jpg" obzahuje nejake moje screenshoty programu
+
+keys .............................. adresar "keys" je nezbytny pro fungovani programu
+                                    ma vyhrazeny nazev a program ho tedy nazahrnuje do 
+                                    nabydky adresaru urcenich k archivovani/sifrovani
+                                    paklize adresar "keys" nebude existovat program se bude
+                                    dozadovat jeho vytvoreni
+                                    
+linuxova_verze_6.2_bash.zip ....... asi rok stara verze tohoto programu ale pro linux
+                                    obsahuje take nekolik screenshotu a soubor cti_me.txt
+                                    spuste soubor desifruj.exe a v nabydce volny souboru "zip"
+                                    vyberte linuxova_verze_6.2_bash.zip a pockejte na rozipovani
+                                    tohoto archivu achiv byl zazipovam/zasifrovan pomoci jednoho
+                                    z klicu ktere jiz v adresari "keys" jsou jako demonstracni
+                                    z nazvem autoruv-klic-1, 2 a nebo 3
+                                    tyto 3 soubory slouzi opravdu jenom jako ukazka jak program
+                                    funguje a jsou pozdeji na vymazani
+set_all_keys_read_only.bat ........ priradi vsem souborum klice ve slozce "keys" atribut Read-Only
+                                    doporucuje se pouzivat
+                                    
+unset_all_keys_read_only.bat ...... odebere vsem souborum klice ve slozce "keys" atribut Read-Only
+
+sleep.com ......................... take jeden z mych vytvoru napsany v C++
+
+sleep.cpp ......................... zdrojovi kod k souboru sleep.com 
+
+old-1.1.zip ....................... archiv ktery obsahuje vlasne vsechny soubory, jak 
+                                    program postupne vznikal ( asi 50 hodin prace )
+                                    je me vzdycky lito to vymazat, obsahuje ruzne podivohodne
+                                    nazvy souboru ktere davaji smysl jenom autorovy, ruzne casti
+                                    celku apod.
+                                    rozpakovani/desifrovani stejne jako u jiz popisovaneho
+                                    souboru linuxova_verze_6.2_bash.zip
+                                    
+unzip.exe ......................... C:\Users\DELL\Documents\Lua52_Win32>unzip -h
+                                    UnZip 5.52 of 28 February 2005, by Info-ZIP.  Maintained by C. Spieler.  Send
+                                    bug reports using http://www.info-zip.org/zip-bug.html; see README for details.
+                                    
+                                    program volne stazeny z internetu, k pouziti zdarma
+                                    jedna se o predchudce pozdejsich programu jako je dnes
+                                    napr. WinZip apod.
+                                    
+zasifruj.exe ...................... program pro zapakovani/zasiforvani slozek, plati to same
+                                    jako u jiz vysse popisovaneho souboru desifruj.exe
+                                    ignoruje delky nazvu slozek delsich nezli 73 znaku
+                                    zrovna tak plati ze nepouzivat diaktitiku v nazvu slozky
+                                    a znak mezera nahrazovat znakem "_" podtrzitko pripadne
+                                    znakem "-" pomlcka
+                                    
+zasifruj.ps1 ...................... zdrojovi kod k souboru zasifuj.exe napsany v 
+                                    PowerShellu Version: 5.1.19041.1682
+                                    
+zip.exe ........................... C:\Users\DELL\Documents\Lua52_Win32>zip -h
+                                    Copyright (c) 1990-2006 Info-ZIP - Type 'zip "-L"' for software license.
+                                    Zip 2.32 (June 19th 2006)
+                                    
+                                    program volne stazeny z internetu, k pouziti zdarma
+                                    jedna se o predchudce pozdejsich programu jako je dnes
+                                    napr. WinZip apod.
+                                    
+zobraz_tip.com .................... takovej pokus, pouziti i v programech zasifruj.exe a desifruj.exe
+                                    pri kazdem spusteni programu zobrazi vyrazne zlute nejaky nahodny tip
+                                    ktery by mel ucit program pouzivat
+                                    v mistech kde program skonci chybou se snazi, zobrazit
+                                    nejaky komentar proc dane situaci doslo
+                                    
+zobraz_tip.ps1 .................... zdrojovy kod k souboru zasifuj.exe
+
+pozn. pozor pri prejmenovanavani archivu zip jiz drive rozzipovanych
+soubor sice bud mit jiny nazev a program ho bude nabyzet ale nazev adresare uvnitr archivu zustene 
+stejny a program bude mit snahu ho extrahovat do adresare stejneho nazvu ale ktery jiz existuje
+v tomto pripadne se me program jednou "hryznul"
+doporuceni: paklize budete opakovane extrahovat prejmenovany archiv, prejmenujte take slozku
+ktera byla jiz dreve vytvorena aby program nezapisoval 2x do stejneho mista !
+tady to nejak osetrit programove neslo...
+
+
+
