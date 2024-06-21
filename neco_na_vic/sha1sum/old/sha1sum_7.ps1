@@ -1,0 +1,39 @@
+﻿cls
+
+# sha1sum ziskany z ubuntu
+$cmd = ("ubuntu.exe")
+$cmd_output = ""
+$cmd_output +=  & $cmd "run" "sha1sum /mnt/r/pokus2"
+#echo $cmd_output"<"
+$cmd_output_2 = $cmd_output.Substring(0,40)
+echo $cmd_output_2"< ubuntu"
+#$d_cmd_output = $cmd_output.Length
+
+
+# sha1sum PowerShell, mnou upraveny
+$pokus2_sha = Get-FileHash -Path "C:\work\pokus2" -Algorithm SHA1
+$sha = $pokus2_sha.Hash
+$d_sha = $sha.Length
+#echo $d_sha
+
+$sha3=""
+
+for ($aa = 0; $aa -le $d_sha -1; $aa++ ) {
+#echo $aa
+$znak_sha = $sha.Substring($aa,1)
+$znak_sha_low = $znak_sha.ToLower()
+#echo $znak_sha_low
+$sha3 += $znak_sha_low
+}
+
+echo $sha3"< PoweShell"
+#$sha3.GetTypeCode()
+ 
+#if ( $linux_1 -like $sha2 ) {
+if ( $sha -like $sha3 ) {
+echo "stejne"
+}else{
+echo "ruzne"
+}
+
+

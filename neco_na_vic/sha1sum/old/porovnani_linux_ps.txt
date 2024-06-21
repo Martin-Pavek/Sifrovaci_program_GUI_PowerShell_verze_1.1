@@ -1,0 +1,22 @@
+cmd.exe
+C:\Users\DELL\Documents\ps1\_GUI\Sifrovaci_program_GUI_PowerShell_verze_1.1\keys>sha1sum autoruv-klic-cislo-1
+a6553b6c91c7c308352f3f85cf7e252b9bd49be4
+C:\Users\DELL\Documents\ps1\_GUI\Sifrovaci_program_GUI_PowerShell_verze_1.1\keys>sha1sum autoruv-klic-cislo-2
+b9fa84f473c82339c5a60d8bec4a26d878f05ce3
+C:\Users\DELL\Documents\ps1\_GUI\Sifrovaci_program_GUI_PowerShell_verze_1.1\keys>sha1sum pokus1
+9b4c9862a6016744e30d74e36808bcbd592481cb
+C:\Users\DELL\Documents\ps1\_GUI\Sifrovaci_program_GUI_PowerShell_verze_1.1\keys>sha1sum pokus2
+e9696393cde1261946db3927146864161404d75a
+
+ubuntu
+autoruv-klic-cislo-1  autoruv-klic-cislo-2  pokus1  pokus2
+pi@DESKTOP-M3G08CC:~/dokumenty/ps1/_GUI/Sifrovaci_program_GUI_PowerShell_verze_1.1/keys$ sha1sum autoruv-klic-cislo-1
+a6553b6c91c7c308352f3f85cf7e252b9bd49be4  autoruv-klic-cislo-1
+pi@DESKTOP-M3G08CC:~/dokumenty/ps1/_GUI/Sifrovaci_program_GUI_PowerShell_verze_1.1/keys$ sha1sum autoruv-klic-cislo-2
+b9fa84f473c82339c5a60d8bec4a26d878f05ce3  autoruv-klic-cislo-2
+pi@DESKTOP-M3G08CC:~/dokumenty/ps1/_GUI/Sifrovaci_program_GUI_PowerShell_verze_1.1/keys$ sha1sum pokus1
+9b4c9862a6016744e30d74e36808bcbd592481cb  pokus1
+pi@DESKTOP-M3G08CC:~/dokumenty/ps1/_GUI/Sifrovaci_program_GUI_PowerShell_verze_1.1/keys$ sha1sum pokus2
+e9696393cde1261946db3927146864161404d75a  pokus2
+pi@DESKTOP-M3G08CC:~/dokumenty/ps1/_GUI/Sifrovaci_program_GUI_PowerShell_verze_1.1/keys$
+
