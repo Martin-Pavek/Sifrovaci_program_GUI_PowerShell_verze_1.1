@@ -1,10 +1,4 @@
 ﻿cls
-
-# bez args[0], urceno ke spusteni v CMD.exe
-
-#Remove-Variable path, sha3, jeden_soubor_zip, d_jeden_soubor_zip, nazev_soubor_sum_txt, pokus2_sha -ErrorAction -SilentlyContinue
-#Remove-Variable d_sha, znak_sha, znak_sha_low, aa, aa1, zapsano_txt -ErrorAction -SilentlyContinue
-
 [string] $path = $pwd
 
 if ( $path.Length -gt 3 ){
