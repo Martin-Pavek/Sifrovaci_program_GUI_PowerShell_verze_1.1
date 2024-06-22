@@ -45,4 +45,5 @@
    trochu jinak ulozeny aby je dokazal nacist program verze 1.0 a verze 1.1 pro Windows
 8) pridano par tipu, celkovy pocet tipu je nyni 30
 
-
+9) v adresari jpg je soubor rozdil_verze_Linux_a_PowerShell.jpg, ktery vysvetluje proc nelze pouzivat obe verze
+   Linux a Windows soucasne a proc si kazda verze si bude rozumet jenom ze svejma souborama zip
