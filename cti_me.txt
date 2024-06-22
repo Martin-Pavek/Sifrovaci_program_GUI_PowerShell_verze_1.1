@@ -1,0 +1,25 @@
+
+program se neinstaluje, takze celej adresar s programem prekopirujte nekam do pocitace napr.
+do C:\Users\UserName\Documents\
+na soubory co maj pripomu "exe" nedelejte zadne zastupce odeslat na plochu tak jak se to nekdy delava
+ale muzete si udelat pro rychle otevreni zastupce na celou slozku co jste nakopirovali
+samozdrejme si slozku prejmenujte jak chcete, tak aby ste se vtom samy potom vyznali
+nazev teto slozky muze obsahovat i ceske znaky z diakritikou, uvnitr teto slozky se to naopak
+nedoporucuje, neni to dano nechopnosti autora ale spise to ma historicke souvislosti o kterej se nebudu rozepisovat
+
+zacnete tim ze v adresari spustite soubor 10_klicu.bat, po dobehnuti generatoru klicu se podivejte do adresare
+"keys" (tento adresar zalohujte a nikdy ho neprejmenovavejte, popsano podrobneji jinde)
+tak v tomto adresari najdete nove polozky klic-01 az klic-10, tyto si prejmenujte podle 
+sebe napr. osoba1-jmeno_pro_osoba2-jmeno a tak podobne, klice ktere nebudete potrebovat muzete smazat
+jdete o uroven vis v adresarovem stomu a vytvorte zde nejakou novou slozku, takze kliknout na vytvorit nova slozka
+pokud pouzivate ceskou lokalizaci Windows tak jako ja, tak ze obevi nazev i z diakritikou ze kterou si program nerozumy
+slozku prejmenujte, znak mezera nahrazujte znakem podrtzitko, dovnit nakopirujte cokoliv chcete z jakymkoliv nazvem
+spuste program zasifruj.exe a nechte se vect jeho jeho dialogem
+po skonceni programu by se mel ve obevit novy soubor z nazvem slozky a priponou "zip"
+opacny postup je podobny, nakopirujte do slozky soubor "zip" ziskany odjinud, spuste program desifruj.exe
+podivete se do slozky "jpg" kde jsou ruzne screenshoty z pouzivani programu
+
+21.6.2024
+
+
+
