@@ -14,9 +14,7 @@ jinak to nepobezi !
 taky je docela uzitecnej posledni radek Komentar: 
 pak kdyz ktomu clovek pride za pul roku tak vetsinou uz vi hovno, takze radeji pouzivat i Komentar:
 
-
 napad na verzi 1.2
-
 u lokaci souboru zasifruj.exe a desifruj.exe sice muze byt adresar "keys"
 ale zastupcem se mu rekne nepouzivej ho a pouzij jinej +cesta k nemu
 takze takovy klamani trochu
