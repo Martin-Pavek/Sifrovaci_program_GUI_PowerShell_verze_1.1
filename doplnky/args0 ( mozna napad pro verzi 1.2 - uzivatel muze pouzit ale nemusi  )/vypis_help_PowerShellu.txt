@@ -1,3 +1,4 @@
+toto je help tak jak ho vypsal soubor powershell.exe -help
 
 PowerShell[.exe] [-PSConsoleFile <file> | -Version <version>]
     [-NoLogo] [-NoExit] [-Sta] [-Mta] [-NoProfile] [-NonInteractive]
