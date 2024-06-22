@@ -120,6 +120,11 @@ zobraz_tip.com .................... takovej pokus, pouziti i v programech zasifr
                                     
 zobraz_tip.ps1 .................... zdrojovy kod k souboru zasifuj.exe
 
+sha1sum_all_zip_files_in_this_folder.com .... v umisteni kde by spusten hleda vsech soubory
+                                              z priponou "zip" a ke kazdemu souboru vytvori
+                                              kontlolni soucet ktery zapise do noveho textoveho souboru
+                                              pro moznou pozdejsi kontrolu
+
 pozn. pozor pri prejmenovanavani archivu zip jiz drive rozzipovanych
 soubor sice bud mit jiny nazev a program ho bude nabyzet ale nazev adresare uvnitr archivu zustene 
 stejny a program bude mit snahu ho extrahovat do adresare stejneho nazvu ale ktery jiz existuje
@@ -127,6 +132,3 @@ v tomto pripadne se me program jednou "hryznul"
 doporuceni: paklize budete opakovane extrahovat prejmenovany archiv, prejmenujte take slozku
 ktera byla jiz dreve vytvorena aby program nezapisoval 2x do stejneho mista !
 tady to nejak osetrit programove neslo...
-
-
-
