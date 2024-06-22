@@ -47,3 +47,5 @@
 
 9) v adresari jpg je soubor rozdil_verze_Linux_a_PowerShell.jpg, ktery vysvetluje proc nelze pouzivat obe verze
    Linux a Windows soucasne a proc si kazda verze si bude rozumet jenom ze svejma souborama zip
+
+
