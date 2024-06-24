@@ -1,11 +1,9 @@
 ﻿cls
-# funguje ! vymeze vsechny uzivatelsky dfinovane premenne ve scriptu
+# funguje ! vymaze vsechny uzivatelsky dfinovane premenne ve scriptu
 # tzn. ze opakovany spusteni zacina znovu jako od "nuly" !
 
 # start of script ( store list existing variable names )
 $ExistingVariables = Get-Variable | Select-Object -ExpandProperty Name
-
-
 
 <#
 you script here
