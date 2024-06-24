@@ -1,10 +1,10 @@
 
-REM je to tam spatne citelny tak jsem to dal jeste sem
+je to tam spatne citelny tak jsem to dal jeste sem
 
 powershell.exe -file args0_4.ps1 "C:\Users\DELL\Documents\keys\"
 takze teohle ^^^ obsahuje radek cil v zastupci, kdyz se da editovat vlastosti zastupce viz screenshoty
 
-pozn. pakliz by byl souror preveden na args0_4.exe pomoci utility PS2EXE
+pozn. pakliz by byl souror preveden na args0_4.exe pomoci utility PS@EXE
 tak tam samozdrejme bude args0_4.exe "C:\Users\DELL\Documents\keys\"
 
 pozn. dulezitej je taky radek pod tim Spustit v:
@@ -18,5 +18,12 @@ pak kdyz ktomu clovek pride za pul roku tak vetsinou uz vi hovno, takze radeji p
 napad na verzi 1.2
 
 u lokaci souboru zasifruj.exe a desifruj.exe sice muze byt adresar "keys"
-ale zastupcem se mu rekne nepouzivej ho a pouzij jinej +cesta k nemu
-takze takovy klamani trochu
+ale zastupcem se mu rekne nepouzivej ho a pouzij jinej + cesta knemu
+takze takovy klamani tak trochu
+
+
+
+23.6.2024
+od tohoto napadu nakonec upusteno, bylo by zbytecne program rozdelovat na vice casti a je doporuceno
+ho pouzivat na nejake prenosne jednotce (flashdisk), vice rozepsano v souboru cti_me.txt
+doplneni dole z 23.6.2024
