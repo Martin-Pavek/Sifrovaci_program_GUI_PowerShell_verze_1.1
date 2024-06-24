@@ -1,4 +1,7 @@
 ﻿cls
+# start of script ( store list existing variable names )
+$ExistingVariables = Get-Variable | Select-Object -ExpandProperty Name
+
 # v zahlavi spusteneho okna zobrazi informoce ( neco jako echo $0 v bash )
 [string] $scriptName = pwd
 #$scriptName += "\"
@@ -44,7 +47,7 @@ $pole_tipy += "Tip 28: Miximalni delka nazvu adresare je omezena na znaku na 69 
 $pole_tipy += "Tip 29: Nazvy adrtesaru delsich nez 69 znaku bude program ignorovat az do doby jejich upravy, zkracenim jejich delky"
 $pole_tipy += "Tip 29: Nazvy adrtesaru delsich nez 69 znaku bude program ignorovat az do doby jejich upravy, zkracenim jejich delky"
 $pole_tipy += "Tip 30: jestlize by jste po havarii programu nasli nejaky soubor podivneho nazvu napr. seyubndlope.bat apod. tak ho vymazte"
-$pole_tipy += "Tip 30: v menu CheckBoxu se da pohybovat take pomoci klaves tabulator,sipky,mezernik (select/deselect) a Enter misto tlacitka [OK]"
+$pole_tipy += "Tip 30: v menu RadioButton se da pohybovat take pomoci klavesy tabulator pak sipky nahoru a dolu a Enter pro potvrzeni vyberu, misto tlacitka [OK]"
 #
 $d_pole_tipy = $pole_tipy.Length
 #echo $d_pole_tipy
@@ -656,6 +659,15 @@ sleep 1
 }
 
 echo "hotovo"
+
+# End of script ( remove new variables )
+$NewVariables = Get-Variable | Select-Object -ExpandProperty Name | Where-Object {$ExistingVariables -notcontains $_ -and $_ -ne "ExistingVariables"}
+if ( $NewVariables ) {
+#Write-Host "vymazu vsechny tyto preomenne: `n`n$NewVariables" # to "n$" tady dela newline
+#Write-Host "vymazu vsechny tyto promenne: `n`n$NewVariables" # 'n'n$ - nalepeny na sobe neda newline | `n` n$ ( nedela newline )
+Remove-Variable $NewVariables
+} else {
+#Write-Host "No new variable to remove !"
+}
+
 sleep 10 # kvuli test, jak dopadnul
-
-
