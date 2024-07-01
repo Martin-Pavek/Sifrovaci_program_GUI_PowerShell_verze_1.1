@@ -32,8 +32,8 @@ $all_file_zip = @( Get-ChildItem $path -Include '*.zip' -Name ) # bere jenom sou
 # nevim jak je -Incude nebo -Exclude z dvouma polozkama napr. -Include '*.zip' and '*.rar' ??
 $d_all_file_zip = $all_file_zip.Length -1
 if ( $d_all_file_zip -eq -1 ) {
-echo "zadne soubory zip ke zpracovani"
-echo "konec"
+Write-host -ForegroundColor red "zadne soubory zip ke zpracovani"
+Write-host -ForegroundColor green "konec"
 sleep 5
 exit 1
 }
@@ -44,7 +44,8 @@ $d_all_file_zip = $all_file_zip.Length -1 #int32
 for ( $aa = 0; $aa -le $d_all_file_zip; $aa++ ) {
 $sha3=""
 $jeden_soubor_zip = $all_file_zip[$aa]
-echo $jeden_soubor_zip
+#echo $jeden_soubor_zip"<"
+Write-host -ForegroundColor red $jeden_soubor_zip
 $d_jeden_soubor_zip = $jeden_soubor_zip.length
 $nazev_soubor_sum_txt = $jeden_soubor_zip.Substring(0,$d_jeden_soubor_zip -4 )
 $nazev_soubor_sum_txt += "_sha1sum.txt"
@@ -67,12 +68,25 @@ $sha3 += $znak_sha_low
 #echo $sha3"<<<"
 Set-Content -Path "$path/$adresar_sha/$nazev_soubor_sum_txt" -Encoding ASCII -Value $sha3
 sleep 2
-& type "$path/$adresar_sha/$nazev_soubor_sum_txt"
-echo ""
+Write-host -ForegroundColor green $jeden_soubor_zip
+Write-host -ForegroundColor green $sha3
+#& type "$path/$adresar_sha/$nazev_soubor_sum_txt"
+#echo $sha3
+#echo ""
 }
 }
 
+echo ""
 #echo "hotovo"
-echo "bylo zapsano $zapsano_txt novych souboru z kontrolnim souctem"
-sleep 5
+if ( $zapsano_txt -eq 0 ){
+Write-host -ForegroundColor red "bylo zapsano $zapsano_txt novych souboru z kontrolnim souctem"
+}else{
+Write-host -ForegroundColor green "bylo zapsano $zapsano_txt novych souboru z kontrolnim souctem"
+}
+
+sleep 20
+exit 0
+
+
+
 
