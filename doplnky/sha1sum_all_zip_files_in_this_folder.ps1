@@ -86,7 +86,3 @@ Write-host -ForegroundColor green "bylo zapsano $zapsano_txt novych souboru z ko
 
 sleep 20
 exit 0
-
-
-
-
