@@ -20,7 +20,7 @@ $adresar_sha = "sha1sum"
 $test_exist_adresar_sha = Test-Path $adresar_sha
 if ($test_exist_adresar_sha -clike "False"){ 
 #echo "nenalezen adtresar $adresar_sha"
-New-Item -Path $adresar_sha -ItemType Directory -Force
+$null = New-Item -Path $adresar_sha -ItemType Directory -Force
 }
 
 
@@ -45,13 +45,13 @@ for ( $aa = 0; $aa -le $d_all_file_zip; $aa++ ) {
 $sha3=""
 $jeden_soubor_zip = $all_file_zip[$aa]
 #echo $jeden_soubor_zip"<"
-Write-host -ForegroundColor red $jeden_soubor_zip
+#Write-host -ForegroundColor red $jeden_soubor_zip
 $d_jeden_soubor_zip = $jeden_soubor_zip.length
 $nazev_soubor_sum_txt = $jeden_soubor_zip.Substring(0,$d_jeden_soubor_zip -4 )
 $nazev_soubor_sum_txt += "_sha1sum.txt"
 #echo $nazev_soubor_sum_txt"<<"
 
-# otestuje jestli soubor exituje a kdez ne tak zapise, jinak dela vic radku v jednom souboru
+# otestuje jestli soubor existuje a kdez ne tak zapise, jinak dela vic radku v jednom souboru
 if (-not (Test-Path "$path/$adresar_sha/$nazev_soubor_sum_txt" ) ) {
 #echo "tento soubor neexistuje"
 $zapsano_txt++
@@ -73,6 +73,9 @@ Write-host -ForegroundColor green $sha3
 #& type "$path/$adresar_sha/$nazev_soubor_sum_txt"
 #echo $sha3
 #echo ""
+}else{
+# kdyz uz je sha txt
+Write-host -ForegroundColor red $jeden_soubor_zip
 }
 }
 
@@ -86,3 +89,7 @@ Write-host -ForegroundColor green "bylo zapsano $zapsano_txt novych souboru z ko
 
 sleep 20
 exit 0
+
+
+
+
