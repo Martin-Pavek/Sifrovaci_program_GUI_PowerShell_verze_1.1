@@ -67,6 +67,19 @@ Write-host -ForegroundColor yellow $pole_tipy[$tip_rnd]
 
 #echo $path
 
+
+$nazev_adresare_klice = "./keys"
+#$nazev_adresare_klice = "./keys_test"
+$nazev_adresare_klice_exist = Test-Path $nazev_adresare_klice
+if ($nazev_adresare_klice_exist -clike "False"){
+Write-host -ForegroundColor red "neni adresar $nazev_adresare_klice"
+Write-host -ForegroundColor yellow $pole_tipy[8]
+$null = New-Item -Path $nazev_adresare_klice -ItemType Directory -Force
+echo "konec programu"
+sleep 5
+exit
+}
+
 # jen adresare krome ./keys
 #$all_folder = @(Get-ChildItem -Attributes Directory $pwd -Exclude "keys")
 $all_folder= @(Get-ChildItem -Attributes Directory $path -Exclude "keys" -Name)
@@ -254,17 +267,6 @@ sleep 3
 # vyber klice 
 ############################################
 
-$nazev_adresare_klice = "./keys"
-
-#$nazev_adresare_klice = "./keys_test"
-$nazev_adresare_klice_exist = Test-Path $nazev_adresare_klice
-if ($nazev_adresare_klice_exist -clike "False"){
-Write-host -ForegroundColor red "neni adresar $nazev_adresare_klice"
-Write-host -ForegroundColor yellow $pole_tipy[8]
-echo "konec programu"
-sleep 5
-exit
-}
 
 # vyber souboru klice pres RadioButtons GUi pro novou versi emailkody pro PowerShell
 #$klice = @(Get-ChildItem $nazev_adresare_klice -Include '*.txt' -Name)

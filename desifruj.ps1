@@ -68,6 +68,18 @@ Write-host -ForegroundColor yellow $pole_tipy[$tip_rnd]
 #[string] $path = "c:\work\"
 
 #echo $path
+$nazev_adresare_klice = "./keys"
+
+# kontrola existuje li folder keys
+$nazev_adresare_klice_exist = Test-Path $nazev_adresare_klice
+if ($nazev_adresare_klice_exist -clike "False"){
+Write-host -ForegroundColor red "neni adresar $nazev_adresare_klice"
+Write-host -ForegroundColor yellow $pole_tipy[9]
+$null = New-Item -Path $nazev_adresare_klice -ItemType Directory -Force
+echo "konec programu"
+sleep 5
+exit
+}
 
 # hleda vsechny soubor *.zip a cete $path
 $all_file_zip = @(Get-ChildItem $path -Include '*.zip' -Name)
@@ -335,17 +347,6 @@ $dvojice_heslo_int = [int] $dvojice_heslo
 #################################################################################################
 
 # nacteni souboru klice precteneho z file commentu do matrixu
-$nazev_adresare_klice = "./keys"
-
-# kontrola existuje li folder keys
-$nazev_adresare_klice_exist = Test-Path $nazev_adresare_klice
-if ($nazev_adresare_klice_exist -clike "False"){
-Write-host -ForegroundColor red "neni adresar $nazev_adresare_klice"
-Write-host -ForegroundColor yellow $pole_tipy[9]
-echo "konec programu"
-sleep 5
-exit
-}
 
 # kontrola jestli existuje v adresary keys klic nacteny z file commentu zipu
 if (-not (Test-Path "$nazev_adresare_klice/$nalezeny_nazev_klice_v_listu_vybraneho_archivu_zip")){
