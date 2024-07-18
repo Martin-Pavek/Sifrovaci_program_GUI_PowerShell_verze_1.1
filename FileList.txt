@@ -125,6 +125,13 @@ sha1sum_all_zip_files_in_this_folder.com .... v umisteni kde by spusten hleda vs
                                               kontrolni soucet ktery zapise do noveho textoveho souboru
                                               pro moznou pozdejsi kontrolu
 
+new_folder.com ..................... vytvori novy adresar dle aktualniho datumu a casu z nazvem ve tvaru
+                                     den-mesic-rok-hodina-minuta-vterina-ZdePrejmenujtePodleSebe
+                                     napr. 17-07-2024-12-36-32-ZdePrejmenujtePodleSebe
+
+new_folder.ps1 ..................... zdrojovu kod k souboru new_folder.com
+                                                                           
+
 pozn. pozor pri prejmenovanavani archivu zip jiz drive rozzipovanych
 soubor sice bud mit jiny nazev a program ho bude nabyzet ale nazev adresare uvnitr archivu zustene 
 stejny a program bude mit snahu ho extrahovat do adresare stejneho nazvu ale ktery jiz existuje
