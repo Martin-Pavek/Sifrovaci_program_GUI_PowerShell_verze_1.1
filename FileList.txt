@@ -130,6 +130,9 @@ new_folder.com ..................... vytvori novy adresar dle aktualniho datumu 
                                      napr. 17-07-2024-12-36-32-ZdePrejmenujtePodleSebe
 
 new_folder.ps1 ..................... zdrojovu kod k souboru new_folder.com
+
+autoruv-testovaci-archiv-1.zip ..... jedna se pouze o autorem vytvoreni archiv, ktery si klade ze
+                                     otestovat funkce programu
                                                                            
 
 pozn. pozor pri prejmenovanavani archivu zip jiz drive rozzipovanych
