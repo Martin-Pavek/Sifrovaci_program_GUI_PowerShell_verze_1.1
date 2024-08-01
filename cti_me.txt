@@ -18,7 +18,6 @@ spuste program zasifruj.exe a nechte se vect jeho jeho dialogem
 po skonceni programu by se mel ve obevit novy soubor z nazvem slozky a priponou "zip"
 opacny postup je podobny, nakopirujte do slozky soubor "zip" ziskany odjinud, spuste program desifruj.exe
 podivete se do slozky "jpg" kde jsou ruzne screenshoty z pouzivani programu
-
 21.6.2024
 
 
@@ -30,6 +29,11 @@ pouzivani z flash disku ma nekolik vyhod, svoje data nosite u sebe a paklize se 
 flashdisk pripojen k pocitaci a je tak chranem pred okolnimi vlivy jako jsou napr. ruzne viry z internetu apod.
 flashdisky muzete mim treba dva a obsahy adresare keys mezi nimi vzajemne kopirovat
 pozn. v adresari z obrazky "jpg" jeste pribyl novy adresar navod "Zmena_pismena_jednotky_FlashDisku"
+
+
+31.7.2024 
+opravena chyba, spatne cislovani souboru klicu z nabidce vyberu klice
+vice v adresari jpg\Sort - nabidka vyberu klice ( oprava z 31.7.2024 )
 
 
 

@@ -82,7 +82,8 @@ exit
 
 # jen adresare krome ./keys
 #$all_folder = @(Get-ChildItem -Attributes Directory $pwd -Exclude "keys")
-$all_folder= @(Get-ChildItem -Attributes Directory $path -Exclude "keys" -Name)
+#$all_folder= @(Get-ChildItem -Attributes Directory $path -Exclude "keys" -Name)
+$all_folder= @(Get-ChildItem -Attributes Directory $path -Exclude "keys" -Name) | Sort-Object
 #$all_folder = @(Get-ChildItem $pwd -Include '/*' -Name)
 #echo $all_folder # typ pole
 $d_all_folder = $all_folder.Length #int32
@@ -270,7 +271,12 @@ sleep 3
 
 # vyber souboru klice pres RadioButtons GUi pro novou versi emailkody pro PowerShell
 #$klice = @(Get-ChildItem $nazev_adresare_klice -Include '*.txt' -Name)
-$klice = @(Get-ChildItem $nazev_adresare_klice -Name)
+
+#$klice = @(Get-ChildItem $nazev_adresare_klice -Name)
+# nove pridan sort podle filename jako v pruzkumnikovy bude zobrazovat
+$klice = @(Get-ChildItem $nazev_adresare_klice -Name ) | Sort-Object
+#$klice = @(Get-ChildItem $nazev_adresare_klice -Name ) | Sort-Object Length,Name
+
 $d_klice = $klice.length - 1
 #echo $d_klice
 
@@ -389,7 +395,7 @@ for ($cc2 = 0; $cc2 -le $d_klice_2; $cc2++) {
 if ( $RadioButton_klice[$cc2].AccessibilityObject.state -like "Checked, Focusable" ){
 #echo $klice[$cc2]
 #$sel_file=$key_file_name[$cc2]
-$sel_file_key=$klice_2[$cc2]
+$sel_file_key=$klice_2[$cc2] # $klice $klice_2
 break
 }
 }
