@@ -82,7 +82,8 @@ exit
 }
 
 # hleda vsechny soubor *.zip a cete $path
-$all_file_zip = @(Get-ChildItem $path -Include '*.zip' -Name)
+$all_file_zip = @()
+$all_file_zip += @(Get-ChildItem $path -Include '*.zip' -Name)
 $d_all_file_zip = $all_file_zip.Length #int32
 #echo $d_all_file_zip"<"
 
@@ -355,7 +356,8 @@ echo "konec programu"
 sleep 10
 exit 1
 }
-$klice = @(Get-ChildItem $nazev_adresare_klice -Name)
+$klice = @()
+$klice += @(Get-ChildItem $nazev_adresare_klice -Name)
 $d_klice = $klice.length - 1
 #echo $d_klice
 
