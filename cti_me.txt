@@ -35,5 +35,7 @@ pozn. v adresari z obrazky "jpg" jeste pribyl novy adresar navod "Zmena_pismena_
 opravena chyba, spatne cislovani souboru klicu z nabidce vyberu klice
 vice v adresari jpg\Sort - nabidka vyberu klice ( oprava z 31.7.2024 )
 
-
+5.8.2024
+opravena dalsi chyba, nebudu již konkrétne popisovat
+vždycky když oběvím nějekou chybu tak jí opravím a nahraju sem opravenou verzi takze prubežně AKTUALIZUJTE
 
