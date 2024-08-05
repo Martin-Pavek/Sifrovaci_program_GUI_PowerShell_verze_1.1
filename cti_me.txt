@@ -38,5 +38,5 @@ opravena dalsi chyba, nebudu již konkrétne popisovat
 vždycky když oběvím nějakou chybu tak jí opravím a nahraju
 sem opravenou verzi takze prubežně AKTUALIZUJTE, na 
 programu stále ještě pracuju a doladuju ho, poznámku o 
-opravě dám vždi sem do tohoto souboru "cti_me.txt"
+opravě dám vždy sem do tohoto souboru "cti_me.txt"
 
