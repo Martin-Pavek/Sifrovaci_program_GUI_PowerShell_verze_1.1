@@ -2,7 +2,7 @@
 title generator klice dve osoby
 cls
 
-set /p pocet="zadej pocet kicu (0-99) ?:
+set /p pocet="zadej pocet klicu (0-99) ?:
 
 rem ----- tyto dva radky editovat ----------
 set nazev_1=Jan_Novak-Patr_Cech-klic
