@@ -133,7 +133,17 @@ new_folder.ps1 ..................... zdrojovu kod k souboru new_folder.com
 
 autoruv-testovaci-archiv-1.zip ..... jedna se pouze o autorem vytvoreni archiv, ktery si klade ze
                                      otestovat funkce programu
-                                                                           
+
+generuj_dve_osoby.bat .............. generuje sadu klicu pro dve osoby, pocet klicu lze volit, editaci
+                                     souboru generuj_dve_osoby.bat v oblasti edit lze docilit zmeny nazvu (jmen)
+                                     pro komunikaci mezi osobou A & B lze pouzivat ruzne soubory klice
+                                     pro komunici A -> B lze pouzit klic napr. A-B_01, a pro komunikaci B -> A
+                                     klic z nazvem napr. B-A_99 atd. atp. obe protistrany pak samozdrejme musi mit
+                                     v adresari "keys" obe sady klicu "A-B_n" a "B-A_n"
+                                     ukazka obrazek generuj_dve_osoby.jpg v adresari "jpg"
+
+generuj_dve_osoby.bak .............. zalozni soubor souboru generuj_dve_osoby.bat, v pripade editace
+                                                   
 
 pozn. pozor pri prejmenovanavani archivu zip jiz drive rozzipovanych
 soubor sice bud mit jiny nazev a program ho bude nabyzet ale nazev adresare uvnitr archivu zustene 
