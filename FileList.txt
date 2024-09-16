@@ -140,9 +140,20 @@ generuj_dve_osoby.bat .............. generuje sadu klicu pro dve osoby, pocet kl
                                      pro komunici A -> B lze pouzit klic napr. A-B_01, a pro komunikaci B -> A
                                      klic z nazvem napr. B-A_99 atd. atp. obe protistrany pak samozdrejme musi mit
                                      v adresari "keys" obe sady klicu "A-B_n" a "B-A_n"
-                                     ukazka obrazek generuj_dve_osoby.jpg v adresari "jpg"
 
 generuj_dve_osoby.bak .............. zalozni soubor souboru generuj_dve_osoby.bat, v pripade editace
+
+adresar PS2EXE ..................... utilitka stazena z GitHubu, umi prevect zdrojovy kod ze souboru *.ps1 a udelat
+                                     zneho samostpustitelni soubor *.com nebo *.exe
+                                     nejprve je potreba otevrit v ps editoru soubor \PS2EXE\Module\ps2exe.ps1
+                                     a spustit ho, dole se obevi hlaska Invoke-ps2exe, pote se dole v cmd okne ( viz. jpg)
+                                     zadavaji jednotlive prikazi napr.  Invoke-ps2exe .\10_klicu.ps1 .\10_klicu.com
+                                     program odpovi hlasenim Compiling file... 
+                                     a Output file \PS2EXE\Module\10_klicu.com written
+                                     takle postupovat vzdy.
+                                     je tam tadky nejaky program Win-PS2EXE.exe ale nikdy jsem to nepouzil, sve delam takhle
+                                     jak je popsano vise
+
                                                    
 
 pozn. pozor pri prejmenovanavani archivu zip jiz drive rozzipovanych
@@ -152,6 +163,10 @@ v tomto pripadne se me program jednou "hryznul"
 doporuceni: paklize budete opakovane extrahovat prejmenovany archiv, prejmenujte take slozku
 ktera byla jiz dreve vytvorena aby program nezapisoval 2x do stejneho mista !
 tady to nejak osetrit programove neslo...
+
+
+nejaktualnejsi verze tohoto a jine moje programy na adrese:
+https://github.com/martin-pavek
 
 
 
