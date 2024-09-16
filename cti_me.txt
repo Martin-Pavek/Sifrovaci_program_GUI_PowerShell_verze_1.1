@@ -20,6 +20,7 @@ opacny postup je podobny, nakopirujte do slozky soubor "zip" ziskany odjinud, sp
 podivete se do slozky "jpg" kde jsou ruzne screenshoty z pouzivani programu
 21.6.2024
 
+
 doplneni z 23.6.2024
 jelikoz program nevyzaduje zadnou instalaci je tak zvane "portable" je nejlepsi ho pouzivat na flash disku,
 paklize mate program na cd-cku tak prekopiruje celou slozku na flash disk ( prejmenujte ji jak chcete ),
@@ -29,14 +30,10 @@ flashdisk pripojen k pocitaci a je tak chranem pred okolnimi vlivy jako jsou nap
 flashdisky muzete mim treba dva a obsahy adresare keys mezi nimi vzajemne kopirovat
 pozn. v adresari z obrazky "jpg" jeste pribyl novy adresar navod "Zmena_pismena_jednotky_FlashDisku"
 
+
 31.7.2024 
 opravena chyba, spatne cislovani souboru klicu z nabidce vyberu klice
 vice v adresari jpg\Sort - nabidka vyberu klice ( oprava z 31.7.2024 )
 
-5.8.2024
-opravena dalsi chyba, nebudu již konkrétne popisovat
-vždycky když oběvím nějakou chybu tak jí opravím a nahraju
-sem opravenou verzi takze prubežně AKTUALIZUJTE, na 
-programu stále ještě pracuju a doladuju ho, poznámku o 
-opravě dám vždy sem do tohoto souboru "cti_me.txt"
+
 

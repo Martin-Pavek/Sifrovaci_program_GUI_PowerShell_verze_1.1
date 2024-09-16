@@ -26,4 +26,3 @@ Sleep(delay*1000); // zadava se v milisekundach, Sleep musi bejt z velkym "S" ta
    return 0;
 }
 
-
