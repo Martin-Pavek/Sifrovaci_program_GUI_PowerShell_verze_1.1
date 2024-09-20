@@ -154,9 +154,13 @@ adresar PS2EXE ..................... utilitka stazena z GitHubu, umi prevect zdr
                                      je tam tadky nejaky program Win-PS2EXE.exe ale nikdy jsem to nepouzil, sve delam takhle
                                      jak je popsano vise
 
-                                                   
+soubor PS2EXE\Module\compile.bat ... nekolik parameru ktere lze pouzit pri kompilace, popis techto parametru je v souboru
+                                     PS2EXE\Module\ps2exe.ps1
+                                     lze prenest pomoci clipoardu obsah souboru compile.bat do cmd onka v editoru a potom
+                                     spustit prevod vsech souboru najednou, screenshoty jsou v adresari jpg/compile/
 
-pozn. pozor pri prejmenovanavani archivu zip jiz drive rozzipovanych
+                                                  
+pozn. pozor pri prejmenovanavani archivu zip jiz drive rozipovanych
 soubor sice bud mit jiny nazev a program ho bude nabyzet ale nazev adresare uvnitr archivu zustene 
 stejny a program bude mit snahu ho extrahovat do adresare stejneho nazvu ale ktery jiz existuje
 v tomto pripadne se me program jednou "hryznul"
