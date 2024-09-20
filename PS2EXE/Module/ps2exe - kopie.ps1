@@ -139,7 +139,6 @@ https://www.powershellgallery.com/packages/ps2exe
 .LINK
 https://github.com/MScholtes/PS2EXE
 #>
-
 function Invoke-ps2exe
 {
 	[CmdletBinding()]
