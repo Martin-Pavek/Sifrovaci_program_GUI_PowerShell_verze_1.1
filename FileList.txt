@@ -157,7 +157,7 @@ adresar PS2EXE ..................... utilitka stazena z GitHubu, umi prevect zdr
 soubor PS2EXE\Module\compile.bat ... nekolik parameru ktere lze pouzit pri kompilace, popis techto parametru je v souboru
                                      PS2EXE\Module\ps2exe.ps1
                                      lze prenest pomoci clipoardu obsah souboru compile.bat do cmd onka v editoru a potom
-                                     spustit prevod vsech souboru najednou, screenshoty jsou v adresari jpg/compile/
+                                     spustit prevod vsech souboru najednou, screenshoty jsou v adresari jpg\prace v ps2exe
 
                                                   
 pozn. pozor pri prejmenovanavani archivu zip jiz drive rozipovanych
