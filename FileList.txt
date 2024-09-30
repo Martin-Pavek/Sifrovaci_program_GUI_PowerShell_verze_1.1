@@ -159,6 +159,10 @@ soubor PS2EXE\Module\compile.bat ... nekolik parameru ktere lze pouzit pri kompi
                                      lze prenest pomoci clipoardu obsah souboru compile.bat do cmd onka v editoru a potom
                                      spustit prevod vsech souboru najednou, screenshoty jsou v adresari jpg\prace v ps2exe
 
+adresar sha1sum/ ................... adresar kam se ukadaji kontrolni soucty vytvorenych arcivu *.zip, ktere vytvari 
+                                     utilita sha1sum_all_zip_files_in_this_folder.com
+
+
                                                   
 pozn. pozor pri prejmenovanavani archivu zip jiz drive rozipovanych
 soubor sice bud mit jiny nazev a program ho bude nabyzet ale nazev adresare uvnitr archivu zustene 
@@ -171,6 +175,5 @@ tady to nejak osetrit programove neslo...
 
 nejaktualnejsi verze tohoto a jine moje programy na adrese:
 https://github.com/martin-pavek
-
 
 
