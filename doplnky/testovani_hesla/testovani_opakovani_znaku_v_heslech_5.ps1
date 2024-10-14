@@ -60,18 +60,24 @@ for ( $dd=0; $dd -le $pole_vysledky.Length -1; $dd++ ) {
 if ( $pole_vysledky[$dd] -lt 10 ) {
 $vysledky_string_out_1 += $pole_vysledky[$dd]
 } else {
-$vysledky_string_out_1+="1" # kdy je $suma = 10
+$vloz_1 = [string] $pole_vysledky[$dd]
+$vloz_1 = $vloz_1.Substring(0,1)
+$vysledky_string_out_1+=$vloz_1 # kdy je $suma >= 10
+#$vysledky_string_out_1+="1" # kdy je $suma >= 10
 }
 
 if ( $pole_vysledky[$dd] -lt 10 ) {
 $vysledky_string_out_2+=" "
 } else {
-$vysledky_string_out_2+="0" # kdy je $suma = 10
+$vloz_2 = [string] $pole_vysledky[$dd]
+$vloz_2 = $vloz_2.Substring(1,1)
+$vysledky_string_out_2+=$vloz_2 # kdy je $suma >= 10
+#$vysledky_string_out_2+="0" # kdy je $suma >= 10
 }
 }
 
 Write-host -ForegroundColor Cyan $vysledky_string_out_1
-Write-host -ForegroundColor Cyan $vysledky_string_out_2 # radek nuly pro desitky ( paklize $suma = 10 ) jsou dva znaky uz
+Write-host -ForegroundColor Cyan $vysledky_string_out_2 # radek nuly pro desitky ( paklize $suma >= 10 ) jsou dva znaky uz
 
 $total_suma=0
 for ($ee=0; $ee -le $pole_vysledky.Length -1; $ee++ ) {
