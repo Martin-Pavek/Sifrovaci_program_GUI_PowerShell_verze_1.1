@@ -19,5 +19,12 @@ echo 'CaseSensitive compare strings "-ceq" oparator'
 "aA" -clike "Aa"
 "aA" -like "aA"
 
-sleep 10
+#------- nebo da se to obejit pres hodnotu znaku v ascii a porvnava na jako 2x int
 
+[int16][char] "a"
+[int16][char] "A"
+[int16][char] "a" -eq [int16][char] "A" # False
+
+$xx = [int16][char]"a"; $xx.GetType() ;echo $xx
+
+sleep 10
