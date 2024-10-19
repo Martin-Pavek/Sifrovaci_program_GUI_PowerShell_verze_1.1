@@ -21,11 +21,15 @@ echo 'CaseSensitive compare strings "-ceq" oparator'
 
 #------- nebo da se to obejit pres hodnotu znaku v ascii a porvnava na jako 2x int
 
-[byte][char] "a"
-[byte][char] "A"
+echo [byte][char] "a"
+echo [byte][char] "A"
 [byte][char] "a" -eq [byte][char] "A" # False
 # Byte	0 to 255	Unsigned 8-bit
 # https://devblogs.microsoft.com/scripting/understanding-numbers-in-powershell/
+echo [byte]::MinValue
+echo [byte]::MaxValue
+
 $xx = [byte][char]"a"; $xx.GetType() ;echo $xx
 
 sleep 10
+
