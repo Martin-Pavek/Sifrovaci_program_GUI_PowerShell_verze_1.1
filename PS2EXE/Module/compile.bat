@@ -1,6 +1,7 @@
+type compile.bat
+pause
 
 powershell_ise.exe ps2exe.ps1
-
 pause
 
 
