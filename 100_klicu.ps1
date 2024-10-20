@@ -45,7 +45,9 @@ echo $out_2
 $stream.WriteLine("$out_2")
 
 $stream.close()
-sleep 2
+Write-host -ForegroundColor yellow "nyni muzete spustit nove vznikly soubor 100_klicu.bat"
+Write-host -ForegroundColor yellow "(paklize jiz existoval drive tak se prepsal jeho obsah)"
+sleep 10
 
 # .\99_klicu.ps1 > a.bat
 # unix2dos a.bat !!!

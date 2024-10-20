@@ -37,7 +37,13 @@ vice v adresari jpg\Sort - nabidka vyberu klice ( oprava z 31.7.2024 )
 pridano testovani 10ti hesel vytvorenych jednim klicem "autoruv-klic-cislo-1"
 vse v adresari \doplnky\testovani_hesla\
 
-
-
-
+20.10.2024
+1) pridana nova funkce do souboru "generuj_klic.ps1", program hlida jestli v miste odkud byl spusten existuje
+adresar "keys", paklize neni tak ho vytvori, vypise o tom hlaseni, takze dva nove souboru "generuj_klic.ps1" a" generuj_klic.com"
+2) dale pridana oprava testovani hesel je novy adresar \doplnky\testovani_hesla\OPRAVA-test_2-30_hesel_postupne\
+vice informaci uvnitr
+3) v ceste \PS2EXE\Module\ pribyl novy soubor "compile.bat" ktery ma usnadnovat praci z utilitou PS2EXE, vse by se pak
+melo odehravat snadneji pomoci clipboardu, urychluje to praci
+4) pridano par radek do souboru "10_klicu.ps1" a "100_klicu.ps1", nove ted vypisuje zlute hlaseni
+tzn. 4 nove soubory "10_klicu.ps1", "100_klicu.com", "100_klicu.ps1", "100_klicu.com"
 

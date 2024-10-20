@@ -1,6 +1,20 @@
 ﻿cls
 
-Remove-Variable delka_args,nazev_adresare_klice,nazev_adresare_klice_exist,nazev_klice, matrix, d_nazev_klice -ErrorAction SilentlyContinue
+Remove-Variable delka_args,nazev_adresare_klice,nazev_adresare_klice_exist,nazev_klice, matrix, d_nazev_klice, nazev_adresare_klice -ErrorAction SilentlyContinue
+
+$nazev_adresare_klice = "./keys"
+# kontrola existuje li folder keys
+$nazev_adresare_klice_exist = Test-Path $nazev_adresare_klice
+if ($nazev_adresare_klice_exist -clike "False"){
+Write-host -ForegroundColor yellow "byl vytvoren adresar $nazev_adresare_klice"
+#Write-host -ForegroundColor yellow $pole_tipy[9]
+$null = New-Item -Path $nazev_adresare_klice -ItemType Directory -Force
+echo "spust program znovu"
+sleep 5
+exit
+}
+
+#exit 1
 
 $delka_args = $args.length
 #echo "celkem args $delka_args"
@@ -64,11 +78,35 @@ $matrix.Add(@("","","","","","","","","","","","","","","","","","","","","","",
 
 #$matrix[0].Length # 62 vodorovne
 
+<# stary
 # delka 62 pole pro generovani hesla
 $table = @("a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z",
 "A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z",
 "1","2","3","4","5","6","7","8","9","0")
-$delka_table = $table.Length
+#>
+
+# ^^^^^___ zde presna nahrada za toto stary
+# odsud novi 20.10.2024
+# A=65, Z=90, a=97, z=122, 0=48, 1=49, 9=57
+#$pole=@(48,57,65,90,97,122) # 0-9, A-Z, a-z 
+$pole=@(97,122,65,90,49,57)
+$d_pole=$pole.Length
+$table=@()
+for ( $aa = 0; $aa -le $d_pole -2; $aa++ ) {
+$od = $pole[$aa]
+$do = $pole[$aa+1]
+for ( $bb = $od; $bb -le $do; $bb++ ) {
+$z = [char] $bb
+$table+=$z
+}
+$aa++
+}
+$table+="0"
+# az sem novy 20.10.2024
+#echo $table
+#sleep 20
+
+$delka_table = $table.Length #62 znaku
 
 # 7812 klicu musi byt celkem
 $poc = 1
