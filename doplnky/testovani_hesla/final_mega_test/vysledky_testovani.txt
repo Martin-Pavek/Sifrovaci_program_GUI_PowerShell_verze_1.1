@@ -1,0 +1,52 @@
+
+bylo provedeno celkem 30 serii v 3x10 testech, kazda serie mela 40 ruznych hesel, vzdy nove vygenerovanych
+v kazde serii byl pouzit jini soubor klice,
+u serie-1 byl pouzit klic "autoruv-klic-cislo-1"
+u serie-2 byl pouzit "autoruv-klic-cislo-2"
+a u serie-3 byl pouzit "autoruv-klic-cislo-3"
+
+sledoval se vysledek kolik hesel pod sebou bude cca. pri 10,20,30,40,50 procentech stejnych znaku
+vysledky jsou tyto:
+----------------------------------------------------------------------------------------------------
+serie-1, test 1-10, klic byl pouzit "autoruv-klic-cislo-1"
+       s1t1  s1t2  s1t3  s1t4  s1t5  s1t6  s1t7  s1t8  s1t9  s1t10
+10%     4     4     4     3     3     4     4     4     4     4
+20%     9     7     7     6     8     8     8     8     8     7
+30%    15    13    14    13    14    14    12    13    14    12 
+40%    22    19    21    21    21    20    20    21    21    20
+50%    35    31    32    34    34    32    33    33    33    32
+----------------------------------------------------------------------------------------------------
+serie-2, test 1-10, klic byl pouzit "autoruv-klic-cislo-2"
+       s2t1  s2t2  s2t3  s2t4  s2t5  s2t6  s2t7  s2t8  s2t9  s2t10
+10%     4     4     5     5     5     5     4     4     3     4
+20%     9     7     9    10     7     9     8     8     7     8
+30%    14    13    13    15    13    14    13    13    13    13
+40%    23    20    21    21    19    20    22    21    22    20
+50%    36    34    34    34    33    31    34    33    36    36
+----------------------------------------------------------------------------------------------------
+serie-3, test 1-10, klic byl pouzit "autoruv-klic-cislo-3"
+       s3t1  s3t2  s3t3  s3t4  s3t5  s3t6  s3t7  s3t8  s3t9  s3t10
+10%     4     5     5     5     4     4     3     5     4     4
+20%     7     9     9     9    10     8     8     8     8     9
+30%    14    14    14    14    14    14    13    13    14    13
+40%    20    20    21    21    21    20    21    21    21    21
+50%    35    34    33    36    36    33    33    33    37    35
+----------------------------------------------------------------------------------------------------
+prumerne hodnoty ze vsech 30 testu:
+10%  4  archivy (zkraceni hesla o 10 % z 126 na cca. 113 znaku)
+20%  7  archivy (zkraceni hesla o 20 % z 126 na cca. 101 znaku)
+30% 13 archivu (zkraceni hesla o 30 % z 126 na cca. 88 znaku)
+40% 20 archivu (zkraceni hesla o 40 % z 126 na cca. 75 znaku)
+50% 33 archivu (zkraceni hesla o 50 % z 126 na cca. 63 znaku)
+
+v adresari s1t1 (serie 1, test 1) jsou ponechany vsechny
+screenshoty (celkem 36) v ostatni adresarich jsou jen ty
+screenshoty kretych se tykaji udaje v tabulce vyse, 
+to znamena vse co obsahuje hodnoty cca. 10,20,20,40,50%
+aby toho nebylo strasne moc, ostatni bylo vymazano
+
+tady jsou vysledky testovani a kolikrat pouzit jeden klic nechavam na uzivately
+ja bych osobne volil tak 20-30x, myslim si ze nejni potreba setrit,
+delka hesla cca. 63 znaku je myslim porad jeste dostacna
+
+
