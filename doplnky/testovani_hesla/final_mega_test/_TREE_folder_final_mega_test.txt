@@ -1,0 +1,252 @@
+
+C:\USERS\DELL\DOCUMENTS\PS1\_GUI\SIFROVACI_PROGRAM_GUI_POWERSHELL_VERZE_1.1\DOPLNKY\TESTOVANI_HESLA\FINAL_MEGA_TEST
+|   opakovani_stejnejch_znaku_v_poly_3.ps1
+|   s1.rar
+|   s2.rar
+|   s3.rar
+|   testovani_opakovani_znaku_v_heslech_5E_auto-screenshots_matrix_8.ps1
+|   vysledky_testovani.txt
+|   _TREE.bat
+|   _TREE_folder.ps1
+|   _TREE_folder_final_mega_test.txt
+|   
++---s1-1
+|       Screenshot-20_10_2024_19-58-40.jpg
+|       Screenshot-20_10_2024_19-58-44.jpg
+|       Screenshot-20_10_2024_19-58-48.jpg
+|       Screenshot-20_10_2024_19-58-52.jpg
+|       Screenshot-20_10_2024_19-58-57.jpg
+|       Screenshot-20_10_2024_19-59-01.jpg
+|       Screenshot-20_10_2024_19-59-05.jpg
+|       Screenshot-20_10_2024_19-59-10.jpg
+|       Screenshot-20_10_2024_19-59-14.jpg
+|       Screenshot-20_10_2024_19-59-18.jpg
+|       Screenshot-20_10_2024_19-59-23.jpg
+|       Screenshot-20_10_2024_19-59-27.jpg
+|       Screenshot-20_10_2024_19-59-31.jpg
+|       Screenshot-20_10_2024_19-59-36.jpg
+|       Screenshot-20_10_2024_19-59-40.jpg
+|       Screenshot-20_10_2024_19-59-45.jpg
+|       Screenshot-20_10_2024_19-59-49.jpg
+|       Screenshot-20_10_2024_19-59-54.jpg
+|       Screenshot-20_10_2024_19-59-58.jpg
+|       Screenshot-20_10_2024_20-00-02.jpg
+|       Screenshot-20_10_2024_20-00-07.jpg
+|       Screenshot-20_10_2024_20-00-11.jpg
+|       Screenshot-20_10_2024_20-00-16.jpg
+|       Screenshot-20_10_2024_20-00-20.jpg
+|       Screenshot-20_10_2024_20-00-25.jpg
+|       Screenshot-20_10_2024_20-00-29.jpg
+|       Screenshot-20_10_2024_20-00-34.jpg
+|       Screenshot-20_10_2024_20-00-39.jpg
+|       Screenshot-20_10_2024_20-00-43.jpg
+|       Screenshot-20_10_2024_20-00-48.jpg
+|       Screenshot-20_10_2024_20-00-52.jpg
+|       Screenshot-20_10_2024_20-00-57.jpg
+|       Screenshot-20_10_2024_20-01-02.jpg
+|       Screenshot-20_10_2024_20-01-06.jpg
+|       Screenshot-20_10_2024_20-01-11.jpg
+|       
++---s1-10
+|       Screenshot-20_10_2024_20-33-56.jpg
+|       Screenshot-20_10_2024_20-34-09.jpg
+|       Screenshot-20_10_2024_20-34-30.jpg
+|       Screenshot-20_10_2024_20-35-06.jpg
+|       Screenshot-20_10_2024_20-36-00.jpg
+|       
++---s1-2
+|       Screenshot-20_10_2024_20-02-30.jpg
+|       Screenshot-20_10_2024_20-02-43.jpg
+|       Screenshot-20_10_2024_20-03-09.jpg
+|       Screenshot-20_10_2024_20-03-35.jpg
+|       Screenshot-20_10_2024_20-04-29.jpg
+|       
++---s1-3
+|       Screenshot-20_10_2024_20-07-02.jpg
+|       Screenshot-20_10_2024_20-07-15.jpg
+|       Screenshot-20_10_2024_20-07-45.jpg
+|       Screenshot-20_10_2024_20-08-16.jpg
+|       Screenshot-20_10_2024_20-09-06.jpg
+|       
++---s1-4
+|       Screenshot-20_10_2024_20-10-26.jpg
+|       Screenshot-20_10_2024_20-10-39.jpg
+|       Screenshot-20_10_2024_20-11-09.jpg
+|       Screenshot-20_10_2024_20-11-45.jpg
+|       Screenshot-20_10_2024_20-12-44.jpg
+|       
++---s1-5
+|       Screenshot-20_10_2024_20-14-33.jpg
+|       Screenshot-20_10_2024_20-14-55.jpg
+|       Screenshot-20_10_2024_20-15-21.jpg
+|       Screenshot-20_10_2024_20-15-52.jpg
+|       Screenshot-20_10_2024_20-16-51.jpg
+|       
++---s1-6
+|       Screenshot-20_10_2024_20-20-46.jpg
+|       Screenshot-20_10_2024_20-21-03.jpg
+|       Screenshot-20_10_2024_20-21-29.jpg
+|       Screenshot-20_10_2024_20-21-56.jpg
+|       Screenshot-20_10_2024_20-22-50.jpg
+|       
++---s1-7
+|       Screenshot-20_10_2024_20-24-01.jpg
+|       Screenshot-20_10_2024_20-24-18.jpg
+|       Screenshot-20_10_2024_20-24-35.jpg
+|       Screenshot-20_10_2024_20-25-11.jpg
+|       Screenshot-20_10_2024_20-26-09.jpg
+|       
++---s1-8
+|       Screenshot-20_10_2024_20-27-37.jpg
+|       Screenshot-20_10_2024_20-27-54.jpg
+|       Screenshot-20_10_2024_20-28-16.jpg
+|       Screenshot-20_10_2024_20-28-51.jpg
+|       Screenshot-20_10_2024_20-29-45.jpg
+|       
++---s1-9
+|       Screenshot-20_10_2024_20-30-44.jpg
+|       Screenshot-20_10_2024_20-31-02.jpg
+|       Screenshot-20_10_2024_20-31-28.jpg
+|       Screenshot-20_10_2024_20-31-59.jpg
+|       Screenshot-20_10_2024_20-32-53.jpg
+|       
++---s2-1
+|       Screenshot-21_10_2024_03-51-39.jpg
+|       Screenshot-21_10_2024_03-52-00.jpg
+|       Screenshot-21_10_2024_03-52-22.jpg
+|       Screenshot-21_10_2024_03-53-02.jpg
+|       Screenshot-21_10_2024_03-54-01.jpg
+|       
++---s2-10
+|       Screenshot-21_10_2024_04-35-29.jpg
+|       Screenshot-21_10_2024_04-35-46.jpg
+|       Screenshot-21_10_2024_04-36-08.jpg
+|       Screenshot-21_10_2024_04-36-39.jpg
+|       Screenshot-21_10_2024_04-37-51.jpg
+|       
++---s2-2
+|       Screenshot-21_10_2024_03-55-05.jpg
+|       Screenshot-21_10_2024_03-55-17.jpg
+|       Screenshot-21_10_2024_03-55-43.jpg
+|       Screenshot-21_10_2024_03-56-14.jpg
+|       Screenshot-21_10_2024_03-57-18.jpg
+|       
++---s2-3
+|       Screenshot-21_10_2024_03-58-25.jpg
+|       Screenshot-21_10_2024_03-58-43.jpg
+|       Screenshot-21_10_2024_03-59-00.jpg
+|       Screenshot-21_10_2024_03-59-36.jpg
+|       Screenshot-21_10_2024_04-00-35.jpg
+|       
++---s2-4
+|       Screenshot-21_10_2024_04-02-50.jpg
+|       Screenshot-21_10_2024_04-03-12.jpg
+|       Screenshot-21_10_2024_04-03-33.jpg
+|       Screenshot-21_10_2024_04-04-00.jpg
+|       Screenshot-21_10_2024_04-04-59.jpg
+|       
++---s2-5
+|       Screenshot-21_10_2024_04-06-13.jpg
+|       Screenshot-21_10_2024_04-06-22.jpg
+|       Screenshot-21_10_2024_04-06-48.jpg
+|       Screenshot-21_10_2024_04-07-14.jpg
+|       Screenshot-21_10_2024_04-08-17.jpg
+|       
++---s2-6
+|       Screenshot-21_10_2024_04-18-52.jpg
+|       Screenshot-21_10_2024_04-19-09.jpg
+|       Screenshot-21_10_2024_04-19-31.jpg
+|       Screenshot-21_10_2024_04-19-57.jpg
+|       Screenshot-21_10_2024_04-20-47.jpg
+|       
++---s2-7
+|       Screenshot-21_10_2024_04-22-51.jpg
+|       Screenshot-21_10_2024_04-23-08.jpg
+|       Screenshot-21_10_2024_04-23-30.jpg
+|       Screenshot-21_10_2024_04-24-10.jpg
+|       Screenshot-21_10_2024_04-25-04.jpg
+|       
++---s2-8
+|       Screenshot-21_10_2024_04-27-57.jpg
+|       Screenshot-21_10_2024_04-28-14.jpg
+|       Screenshot-21_10_2024_04-28-36.jpg
+|       Screenshot-21_10_2024_04-29-11.jpg
+|       Screenshot-21_10_2024_04-30-05.jpg
+|       
++---s2-9
+|       Screenshot-21_10_2024_04-31-24.jpg
+|       Screenshot-21_10_2024_04-31-41.jpg
+|       Screenshot-21_10_2024_04-32-07.jpg
+|       Screenshot-21_10_2024_04-32-46.jpg
+|       Screenshot-21_10_2024_04-33-50.jpg
+|       
++---s3-1
+|       Screenshot-21_10_2024_05-15-44.jpg
+|       Screenshot-21_10_2024_05-15-57.jpg
+|       Screenshot-21_10_2024_05-16-27.jpg
+|       Screenshot-21_10_2024_05-16-54.jpg
+|       Screenshot-21_10_2024_05-18-02.jpg
+|       
++---s3-10
+|       Screenshot-21_10_2024_05-49-01.jpg
+|       Screenshot-21_10_2024_05-49-18.jpg
+|       Screenshot-21_10_2024_05-49-31.jpg
+|       Screenshot-21_10_2024_05-49-59.jpg
+|       Screenshot-21_10_2024_05-50-48.jpg
+|       
++---s3-2
+|       Screenshot-21_10_2024_05-19-29.jpg
+|       Screenshot-21_10_2024_05-19-42.jpg
+|       Screenshot-21_10_2024_05-19-59.jpg
+|       Screenshot-21_10_2024_05-20-19.jpg
+|       Screenshot-21_10_2024_05-21-09.jpg
+|       
++---s3-3
+|       Screenshot-21_10_2024_05-22-39.jpg
+|       Screenshot-21_10_2024_05-22-52.jpg
+|       Screenshot-21_10_2024_05-23-09.jpg
+|       Screenshot-21_10_2024_05-23-33.jpg
+|       Screenshot-21_10_2024_05-24-15.jpg
+|       
++---s3-4
+|       Screenshot-21_10_2024_05-28-09.jpg
+|       Screenshot-21_10_2024_05-28-22.jpg
+|       Screenshot-21_10_2024_05-28-39.jpg
+|       Screenshot-21_10_2024_05-29-03.jpg
+|       Screenshot-21_10_2024_05-29-56.jpg
+|       
++---s3-5
+|       Screenshot-21_10_2024_05-31-05.jpg
+|       Screenshot-21_10_2024_05-31-24.jpg
+|       Screenshot-21_10_2024_05-31-38.jpg
+|       Screenshot-21_10_2024_05-32-06.jpg
+|       Screenshot-21_10_2024_05-32-55.jpg
+|       
++---s3-6
+|       Screenshot-21_10_2024_05-34-41.jpg
+|       Screenshot-21_10_2024_05-34-54.jpg
+|       Screenshot-21_10_2024_05-35-14.jpg
+|       Screenshot-21_10_2024_05-35-35.jpg
+|       Screenshot-21_10_2024_05-36-20.jpg
+|       
++---s3-7
+|       Screenshot-21_10_2024_05-37-59.jpg
+|       Screenshot-21_10_2024_05-38-15.jpg
+|       Screenshot-21_10_2024_05-38-32.jpg
+|       Screenshot-21_10_2024_05-39-00.jpg
+|       Screenshot-21_10_2024_05-39-42.jpg
+|       
++---s3-8
+|       Screenshot-21_10_2024_05-43-36.jpg
+|       Screenshot-21_10_2024_05-43-45.jpg
+|       Screenshot-21_10_2024_05-44-02.jpg
+|       Screenshot-21_10_2024_05-44-30.jpg
+|       Screenshot-21_10_2024_05-45-12.jpg
+|       
+\---s3-9
+        Screenshot-21_10_2024_05-46-10.jpg
+        Screenshot-21_10_2024_05-46-23.jpg
+        Screenshot-21_10_2024_05-46-43.jpg
+        Screenshot-21_10_2024_05-47-07.jpg
+        Screenshot-21_10_2024_05-48-04.jpg
+        
