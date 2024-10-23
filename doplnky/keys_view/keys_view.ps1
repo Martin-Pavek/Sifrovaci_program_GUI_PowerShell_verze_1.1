@@ -15,7 +15,6 @@ $nazev_klice = $cesta_do_adresare_keys + $volba_klice
 echo $nazev_klice
 
 # test jestli existuje zvoleny soubor
-
 $file_exist_test = Test-Path $nazev_klice
 if ($file_exist_test -clike "False"){
 Write-host -ForegroundColor red "nenalezen soubor $nazev_klice"
@@ -23,7 +22,6 @@ echo "konec programu"
 sleep 5
 exit
 }
-
 
 $matrix=[System.Collections.ArrayList]::new()
 
@@ -128,4 +126,3 @@ Set-Content -Path $out_file_name -Encoding ASCII -Value $pole_out
 # ceka v pauze na ukonceni
 Read-Host -Prompt "Press ENTER to continue"
 sleep 1
-
