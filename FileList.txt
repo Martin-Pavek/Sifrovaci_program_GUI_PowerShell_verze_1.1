@@ -162,6 +162,7 @@ soubor PS2EXE\Module\compile.bat ... nekolik parameru ktere lze pouzit pri kompi
 adresar sha1sum/ ................... adresar kam se ukadaji kontrolni soucty vytvorenych arcivu *.zip, ktere vytvari 
                                      utilita sha1sum_all_zip_files_in_this_folder.com
 
+doplnky\keys_view\keys_view.exe ...  utilita slouzici ke grafickemu robrazovani souboru klicu,velmi prehledny zpusobem
 
                                                   
 pozn. pozor pri prejmenovanavani archivu zip jiz drive rozipovanych
